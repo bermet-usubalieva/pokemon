@@ -1,0 +1,16 @@
+.wrap {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    background-color: antiquewhite;
+}
+
+.pokemon_card {
+    display: flex;
+    background-color: #93e0eb;
+    max-width: 250px;
+    border-radius: 10px;
+    padding: 10px 0 10px 10px;
+    align-items: center;
+    justify-content: space-around;
+}
